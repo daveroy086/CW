@@ -2,20 +2,31 @@ function diagonals(matrix) {
     var returnMatrix = [];
      len = matrix.length;
 
-    //will return the upper, left to lower, right diagonals from h largest down to the lower left corner 
+    //will return the upper, left to lower, right diagonals from the largest down to the lower left corner 
     for (let i = 0; i < len; i++){
-         var resultMatrix = [];
+         var aResultMatrix = []; 
         for (let j = 0; j < len; j++){
-          console.log('i is ' + i + ', j is ' + j );
           let k = j - i;
           if(k < 0){
           }else{
-            resultMatrix.push(matrix[j][k]);
-            console.log('i is ' + i + ', j is ' + j + ', k is ' + k + ' and matrix[j][k] is ' + matrix[j][k]);
-            console.log(resultMatrix);
+            aResultMatrix.push(matrix[j][k]);
           }
             }//end for j
-            returnMatrix.push(resultMatrix);
+            returnMatrix.push(aResultMatrix);
+            console.log(returnMatrix);
+        }//end for i
+        //will return the upper, left to lower, right diagonals from the largest down up to the upper right corner 
+    for (let m = 0; m < len - 1; m++){
+         var bResultMatrix = []; 
+        for (let n = 0; n < len - m - 1 ; n++){
+          let p = n + m + 1;
+          if(p < 0){
+          }else{
+            bResultMatrix.push(matrix[n][p]);
+            console.log(bResultMatrix);
+          }
+            }//end for j
+            returnMatrix.push(bResultMatrix);
         }//end for i
     
     console.log(returnMatrix);
