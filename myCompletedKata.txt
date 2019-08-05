@@ -1,0 +1,64 @@
+8th kyu
+Javascript
+
+Opposite number				refactored		do it again
+Sum Arrays					refactored
+Thinkful number drills
+Get character from ASCII number
+Abreviate a two word name
+Return the day
+Multiply
+Crash Override
+Geometry basics
+Remove elements
+Count odd numbers below n	(11 kata)
+
+Python
+Sum mixed arrays
+Opposites attract	(two kata)
+
+7th kyu
+Javascript
+
+Binary addition
+Growth of a populatin
+Whats my golf score
+Unlucky days
+The ladies of ENIAC
+Fizz buzz
+Club doorman
+Find the missing element betweew two arrays
+Drying potatoes
+Spoonerize me
+Remove the noise from the string
+Sort the men from the boys
+Easy line
+Sum of a sequence
+Shift Left
+How many arguents	(16 kata)
+
+6th kyu
+Javascript
+
+Is a prime number
+Product of consecutive Fib numbersWhich are in
+Create phone number
+Simple transposition
+Pascal's triangle
+Upside down pyramid addition reversed
+Simple fun #23
+Stop gninnips my sdrow
+Save the spice harvester
+Simple encryption
+Decipher this
+Encrypt this
+Matrix addition
+Find the odd int
+Shopping list
+Simple substitution cipher helper
+Simple simple simple string expansion (17 kata)
+
+5th kyu
+Caesar cipher helper
+Maximum sub array sum
+Diagonals
